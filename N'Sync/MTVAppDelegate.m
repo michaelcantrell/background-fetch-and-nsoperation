@@ -76,9 +76,9 @@
 					// Clear completion handler
 					fetchCompletionHandler = nil;
 				}
+				
+				syncOperation = nil;
 			});
-			
-			syncOperation = nil;
 		}
 	}
 }
